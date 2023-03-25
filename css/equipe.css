@@ -1,0 +1,36 @@
+#titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+body{
+	background-color: rgb(30,80,125);}
+
+#contenu{
+display: flex;
+justify-content: center;
+    
+}
+#navigation{
+	background-color: rgba(0,0,255,0.2);
+	display: flex; 
+	align-items : center;
+	justify-content: center;
+	justify-content: space-around;
+	font-size: x-large;
+	padding: 50px;
+}
+a{
+	color: white;
+	text-transform: none;
+	text-decoration: none;
+
+}
+a:hover{
+	font-size: larger;
+	color: red;
+	transition: 0.5s;
+
+}
